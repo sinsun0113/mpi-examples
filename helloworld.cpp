@@ -1,5 +1,5 @@
 #include <mpi.h>
-
+#include <cstdio>
 int main(int argc, char** argv) {
     // Initialize the MPI environment
     MPI_Init(NULL, NULL);
